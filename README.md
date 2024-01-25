@@ -72,3 +72,15 @@ if(Input.GetKey(KeyCode.LeftArrow))
 }
 ```
 '_left_' que es equivalente a Vector3(-1, 0, 0).
+
+## CamaraAutonoma
+
+Este script hace que nuestra cámara se mueva sin ningún input del usuario de manera autónoma.
+
+```cs
+void Update()
+{
+    transform.Rotate (new Vector3 (0, 0, 20) * Time.deltaTime);
+}
+```
+Hace rotar al objeto sobre el eje Z una cantidad específica (20) cada frame.

@@ -15,6 +15,8 @@ private void FixedUpdate()
 
 Con este script haremos que la cámara siga el movimiento de nuestro _player_.
 
+![](https://github.com/samueldam1/UnityMovimientos/blob/main/GIFs/CameraController.gif)
+
 Hacemos esto mediante el siguiente de código:
 ```cs
 void Start()

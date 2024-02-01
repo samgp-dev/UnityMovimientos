@@ -41,6 +41,8 @@ Hace que los valores de **rotacion** de la cámara estén ligados a nuestro _pla
 
 Tenemos una cámara en plano cenital (vista desde arriba) la cuál podremos mover con las flechas del teclado.
 
+!(https://github.com/samueldam1/UnityMovimientos/blob/main/GIFs/CamaraCenitalController.gif)
+
 Para su movimiento tenemos el siguiente código:
 
 ```cs
@@ -76,7 +78,7 @@ if(Input.GetKey(KeyCode.LeftArrow))
 
 Este script hace que nuestra cámara se mueva sin ningún input del usuario de manera autónoma.
 
-![Screenshot](https://github.com/samueldam1/UnityMovimientos/blob/main/GIFs/CamaraAutonoma.gif)
+![](https://github.com/samueldam1/UnityMovimientos/blob/main/GIFs/CamaraAutonoma.gif)
 
 
 ```cs

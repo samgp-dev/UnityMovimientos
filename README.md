@@ -11,7 +11,6 @@ private void FixedUpdate()
 }
 ```
 
-
 ## CameraController
 
 Con este script haremos que la cámara siga el movimiento de nuestro _player_.
@@ -38,7 +37,7 @@ Dicta que los valores de **posición** de la cámara sean los valores de **posic
 ```
 Hace que los valores de **rotacion** de la cámara estén ligados a nuestro _player_ haciendo que de ser modificados sus valores también lo sean modificados los de la cámara.
 
-## CamaraCentitalController
+## CamaraCenitalController
 
 Tenemos una cámara en plano cenital (vista desde arriba) la cuál podremos mover con las flechas del teclado.
 
@@ -76,6 +75,9 @@ if(Input.GetKey(KeyCode.LeftArrow))
 ## CamaraAutonoma
 
 Este script hace que nuestra cámara se mueva sin ningún input del usuario de manera autónoma.
+
+![Screenshot](https://github.com/samueldam1/UnityMovimientos/blob/main/GIFs/CamaraAutonoma.gif)
+
 
 ```cs
 void Update()

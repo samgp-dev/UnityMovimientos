@@ -41,7 +41,7 @@ Hace que los valores de **rotacion** de la cámara estén ligados a nuestro _pla
 
 Tenemos una cámara en plano cenital (vista desde arriba) la cuál podremos mover con las flechas del teclado.
 
-!(https://github.com/samueldam1/UnityMovimientos/blob/main/GIFs/CamaraCenitalController.gif)
+![](https://github.com/samueldam1/UnityMovimientos/blob/main/GIFs/CamaraCenitalController.gif)
 
 Para su movimiento tenemos el siguiente código:
 
